@@ -12,7 +12,7 @@ export class DownloadPdfPopupComponent implements OnInit {
   }
 
   hidePdfDownloadPopup() {
-    this.pdfPlayerService.showDownloadPopup = true;
+    this.pdfPlayerService.showDownloadPopup = false;
   }
 
   downloadPdf() {
